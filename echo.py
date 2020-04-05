@@ -1,13 +1,4 @@
-#there is a broken speaker which plays every word n times and in every turn it removes one of the letters and replaces it with the next letter
-#water
-#aater
-#ttter
-#eeeer
-#rrrrr
-#write a prgram that prints the words said by speaker
-#first dont use string slicing
-#after that write a program with string slicing
-
+#two different ways
 word=input()
 
 print ('without slicing : ')
