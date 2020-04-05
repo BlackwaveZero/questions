@@ -10,9 +10,7 @@ for char in text:
         offset+=1
     if offset<0:
         flag=False
-if offset!=0:
-    flag=False
-if flag:
+if flag and offset==0:
     print ('ok!')
 else:
     print ('error!')
