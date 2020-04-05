@@ -10,7 +10,7 @@ print (tmp)
 #################
 # def convertChar(c,offset):
 #     return chr( (ord(c) + offset ) % 256 )
-# def convert(text,key):
+# def Encrypt(text,key):
 #     tmp=''
 #     for c in text:
 #         tmp+=convertChar(c,key)
