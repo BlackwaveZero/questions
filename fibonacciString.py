@@ -9,12 +9,10 @@ output='+'
 a=1
 b=1
 while a+b<=n:
-    #produce fibonacci
     tmp=b
     b+=a
     a=tmp
-    #add symbols
-    output+='-'*(b-a-1)
+    output+='-'*(b-a-1) 
     output+='+'
 output+='-'*(n-b)
 print (output)
